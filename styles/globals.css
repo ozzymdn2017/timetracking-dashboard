@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: #ffffff;
+    --color-text-muted: #c7d2fe;
+    --color-text-inverted: #4f46e5;
+    --color-fill: hsl(226, 43%, 10%);
+    --color-card-accent: hsl(246, 80%, 60%);
+    --color-card-accent-hover: hsl(235, 46%, 20%);
+    --color-card-work: hsl(15, 100%, 70%);
+    --color-card-play: hsl(195, 74%, 62%);
+    --color-card-study: hsl(348, 100%, 68%);
+    --color-card-exercise: hsl(145, 58%, 55%);
+    --color-card-social: hsl(264, 64%, 52%);
+    --color-card-selfcare: hsl(43, 84%, 65%);
+  }
+}
